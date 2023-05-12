@@ -5,7 +5,7 @@ import Main from './Main';
 import Data from './Data';
 
 
-function App() {
+export default function App() {
   const newData = Data.map((x) => {
     return(
       <Main
@@ -27,4 +27,3 @@ function App() {
     </div>
   )
 }
-export default App;
